@@ -1,7 +1,5 @@
 package test;
 
-import java.io.Serializable;
-
 public class test {
     public static void main(String[] args) {
         new test().new tt().run();
@@ -10,6 +8,7 @@ public class test {
         lambda();
     }
 
+    //lamdba
     private static void lambda() {
         new Thread(() -> {
             for (int i = 0; i < 20; i++) {
@@ -18,6 +17,7 @@ public class test {
         }).start();
     }
 
+    //new Runnable
     private static void newThread() {
         new Thread(new Runnable() {
             @Override
