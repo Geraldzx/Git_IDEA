@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46b7dad8-9ba0-427b-a34e-8f7be14c090f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOstream/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOstream/Stu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,7 +28,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IOstream/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="380">
               <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,14 +72,39 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="12.13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12.13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="12.13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12.13" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="12.13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12.13" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="IOstream" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544694475470" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="E:/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -141,8 +169,7 @@
       <workItem from="1544676912915" duration="850000" />
       <workItem from="1544681402533" duration="8000" />
       <workItem from="1544685508699" duration="3190000" />
-      <workItem from="1544694974321" duration="954000" />
-      <workItem from="1544748378461" duration="243000" />
+      <workItem from="1544694974321" duration="913000" />
     </task>
     <task id="LOCAL-00001" summary="test线程">
       <created>1544685663807</created>
@@ -165,21 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1544694087767</updated>
     </task>
-    <task id="LOCAL-00004" summary="test stu">
-      <created>1544695909190</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1544695909190</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7108000" />
+    <option name="totallyTimeSpent" value="6824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.062193125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -250,8 +271,7 @@
     <MESSAGE value="test线程" />
     <MESSAGE value="多线程之线程安全卖票" />
     <MESSAGE value="多线程test没有测试" />
-    <MESSAGE value="test stu" />
-    <option name="LAST_COMMIT_MESSAGE" value="test stu" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程test没有测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/test.java">
@@ -301,7 +321,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IOstream/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="380">
           <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
