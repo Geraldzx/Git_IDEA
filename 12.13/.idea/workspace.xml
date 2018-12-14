@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46b7dad8-9ba0-427b-a34e-8f7be14c090f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Home_Worek_There/table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12.14/src/IOtest/XXXXXX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12.14/src/IOtest2/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12.14/src/IOtest2/testClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home_Worek_There/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home_Worek_There/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home_Worek_There/cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home_Worek_There/cook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home_Worek_There/guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home_Worek_There/guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManager/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManager/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManager/src/BookManager/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManager/src/BookManager/BookManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManager/src/BookManager/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManager/src/BookManager/test" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/Home_Worek_There/cook.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding>
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
@@ -58,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home_Worek_There/table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="1075">
+              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -107,8 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,22 +118,12 @@
               <item name="12.13" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="12.13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="12.13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="home_Worek1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="12.13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="12.13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Home_Worek_There" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,6 +245,7 @@
       <workItem from="1544685508699" duration="3190000" />
       <workItem from="1544694974321" duration="913000" />
       <workItem from="1544756721431" duration="4625000" />
+      <workItem from="1544771953963" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="test线程">
       <created>1544685663807</created>
@@ -291,13 +279,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11449000" />
+    <option name="totallyTimeSpent" value="11466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19007634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19007634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,9 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p/add.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p/add.java" />
     <entry file="file://$PROJECT_DIR$/src/home_Worek1/deductone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -488,10 +473,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home_Worek_There/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Home_Worek_There/cook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
@@ -512,15 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home_Worek_There/table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home_Worek_There/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="1075">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
         </state>
       </provider>
     </entry>
