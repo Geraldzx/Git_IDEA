@@ -47,7 +47,7 @@ public class carManager {
      * 添加用户
      */
     public boolean addUsers(Car u) {
-        if(this.findUserManager(u.getC_num())==null)
+        if(this.findcarManager(u.getC_num())==null)
             return false;
         this.cars.add(u);
         this.refresh(this.cars);
@@ -57,7 +57,7 @@ public class carManager {
     /**
      * 根据ID查找用户
      */
-    public Car findUserManager(String C_num){
+    public Car findcarManager(String C_num){
         for (Car car : cars) {
             if(car.getC_num().equals(C_num))
                 return car;

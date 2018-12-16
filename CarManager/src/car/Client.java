@@ -2,6 +2,7 @@ package car;
 
 import com.sun.org.apache.xalan.internal.xsltc.dom.SortingIterator;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Client {
@@ -20,18 +21,30 @@ public class Client {
                      addUsers();
                      break;
                  case 2:
-                     System.out.println("请输入您的账户：");
-                     String userid =input.next();
-                     user userManager = um.findUserManager(userid);
-                     if(userManager==null){
-                         System.out.println("该账户还没有注册！");
-                         break;
-                     }
-                     CheckThePassword(userManager);
+                     login();
+                     break;
              }
          }
     }
 
+    /**
+     * 登录
+     */
+    private static void login() {
+        System.out.println("请输入您的账户：");
+        String userid =input.next();
+        user userManager = um.findUserManager(userid);
+        if(userManager==null){
+            System.out.println("该账户还没有注册！");
+            return;
+        }
+        CheckThePassword(userManager);
+    }
+
+    /**
+     * 输入密码并验证
+     * @param userManager
+     */
     private static void CheckThePassword(user userManager) {
         if(userManager.getState()<=0){
             System.out.println("您的账户已被锁定，请联系管理员解锁！");
@@ -61,10 +74,31 @@ public class Client {
         System.out.println("1.查看所有车辆");
         System.out.println("2.根据车牌号查看汽车租赁人信息及已租天数");
         System.out.println("3.更改用户状态");
+        System.out.println("4.添加车辆");
+        System.out.println("5.删除车辆");
         if(userManager.getPermissions()==1)
-            System.out.println("4.更改用户权限");
+            System.out.println("6.更改用户权限");
         System.out.println("请选择：");
         int num=input.nextInt();
+        if(num==1){
+            List<Car> cars = cm.getCars();
+            for (Car car : cars) {
+                if(car!=null)
+                    System.out.println(car.toString());
+            }
+            return;
+        }else if (num==2){
+            System.out.println("请输入需要查询的车牌号：");
+            String c_num=input.next();
+            Car car = cm.findcarManager(c_num);
+            if(car!=null){
+                System.out.print(car.getUsers().toString());
+                long l = car.getCar_time().getTime() - car.getLease_time().getTime();
+                long l1 = l / 1000 / 60 / 60/24;
+                long l2 = l / 1000 / 60 / 60 % 24;
+                long l3 = l1 + (l2 >= 12 ? 1 : 0);
+            }
+        }
     }
 
     /**
@@ -97,7 +131,7 @@ public class Client {
         System.out.println("\t+---------------------------+");
         System.out.println("\t|    \t汽车租赁系统      \t|");
         System.out.println("\t+---------------------------+");
-        System.out.println("");
+        System.out.println();
         System.out.println("1、注册；2、登录；3、退出；");
         user user = new user("root","root","root","root",1);
         um.addUsers(user);
