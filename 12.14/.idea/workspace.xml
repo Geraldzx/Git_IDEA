@@ -63,7 +63,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="12.14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12.14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="12.14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="12.14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -122,6 +137,7 @@
       <workItem from="1544743548333" duration="1758000" />
       <workItem from="1544745696828" duration="184000" />
       <workItem from="1544786267769" duration="17000" />
+      <workItem from="1544786546638" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="IO Stream test">
       <created>1544745775123</created>
@@ -141,12 +157,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1959000" />
+    <option name="totallyTimeSpent" value="2330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

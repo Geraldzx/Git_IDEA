@@ -17,15 +17,12 @@ public class Car implements Serializable {
     private Date Lease_time;//出租时间
     private Date Car_time;//还车时间
 
-    public Car(String brand, String models, String rent, String c_num, boolean state, user users, Date lease_time, Date car_time) {
+    public Car(String brand, String models, String rent, String c_num) {
         this.brand = brand;
         this.models = models;
         this.rent = rent;
         this.c_num = c_num;
-        this.state = state;
-        this.users = users;
-        Lease_time = lease_time;
-        Car_time = car_time;
+        this.state = true;
     }
 
     @Override
