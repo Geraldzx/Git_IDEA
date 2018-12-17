@@ -10,6 +10,15 @@ public class user implements Serializable {
     private String u_num;//联系电话
     private int permissions ;//权限
     private int state = 3;//状态
+    private Car [] uc={};//租用车辆
+
+    public Car[] getUc() {
+        return uc;
+    }
+
+    public void setUc(Car[] uc) {
+        this.uc = uc;
+    }
 
     @Override
     public String toString() {

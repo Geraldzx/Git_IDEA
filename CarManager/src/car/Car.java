@@ -10,33 +10,28 @@ public class Car implements Serializable {
     private static final long serialVersionUID = 3421471490707489334L;
     private String  brand;//品牌
     private String  models;//车型
-    private String  rent;//日租金
+    private double  rent;//日租金
     private String  c_num;//车牌号
     private boolean  state;//状态
     private user  users;//租车人
     private Date Lease_time;//出租时间
     private Date Car_time;//还车时间
 
-    public Car(String brand, String models, String rent, String c_num, boolean state, user users, Date lease_time, Date car_time) {
+    public Car(String brand, String models, double rent, String c_num) {
         this.brand = brand;
         this.models = models;
         this.rent = rent;
         this.c_num = c_num;
-        this.state = state;
-        this.users = users;
-        Lease_time = lease_time;
-        Car_time = car_time;
+        this.state = true;
     }
 
     @Override
     public String toString() {
-        return "Car{" +
-                "brand='" + brand + '\'' +
-                ", models='" + models + '\'' +
-                ", rent='" + rent + '\'' +
-                ", c_num='" + c_num + '\'' +
-                ", state=" + state +
-                '}';
+        return  "\t|\t" + brand +
+                "\t|\t" + models +
+                "\t|\t" + rent +
+                "\t|\t" + c_num +
+                "\t|\t" + state ;
     }
 
     public static long getSerialVersionUID() {
@@ -59,11 +54,11 @@ public class Car implements Serializable {
         this.models = models;
     }
 
-    public String getRent() {
+    public double getRent() {
         return rent;
     }
 
-    public void setRent(String rent) {
+    public void setRent(double rent) {
         this.rent = rent;
     }
 
