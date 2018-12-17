@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -81,6 +82,10 @@ public class BookManager {
      */
     public void sortinginPrice(){
         Collections.sort(books);
+        /*books.sort((f1,f2)->
+                (int)(f1.getPrice()-f2.getPrice()));*/
+        /*Collections.sort(books,(f1,f2)->
+                (int)(f1.getPrice()-f2.getPrice()));*/
     }
 
     /**
