@@ -12,7 +12,7 @@ public class Car implements Serializable {
     private String  models;//车型
     private double  rent;//日租金
     private String  c_num;//车牌号
-    private boolean  state;//状态
+    private boolean  state=false;//状态
     private user  users;//租车人
     private Date Lease_time;//出租时间
     private Date Car_time;//还车时间
@@ -27,11 +27,11 @@ public class Car implements Serializable {
 
     @Override
     public String toString() {
-        return  "\t|\t" + brand +
-                "\t|\t" + models +
-                "\t|\t" + rent +
-                "\t|\t" + c_num +
-                "\t|\t" + state ;
+        return  "\t\t|\t\t" + brand +
+                "\t\t|\t\t" + models +
+                "\t\t|\t\t"+ rent +
+                "\t\t|\t\t" + c_num +
+                "\t\t|\t\t" + (state?"是":"否") +"\t\t|";
     }
 
     public static long getSerialVersionUID() {
@@ -70,7 +70,7 @@ public class Car implements Serializable {
         this.c_num = c_num;
     }
 
-    public boolean isState() {
+    public boolean getState() {
         return state;
     }
 

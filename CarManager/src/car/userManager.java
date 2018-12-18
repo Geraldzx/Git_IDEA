@@ -28,7 +28,7 @@ public class userManager {
      * 添加用户
      */
     public boolean addUsers(user u) {
-        if(this.findUserManager(u.getU_ID())==null)
+        if(this.findUserManager(u.getU_ID())!=null)
             return false;
     	this.users.add(u);
     	this.refresh(this.users);
@@ -91,10 +91,25 @@ public class userManager {
     }
 
     /**
-     * 更改用户权限
+     * 更改用户状态
      */
-    public  boolean ChangeUserPermissions(){
+    public  boolean ChangeUserstate(user us){
+        us.setState(3);
+        return true;
+    }
+    /**
+     * 更改用户权限up
+     */
+    public boolean changeUserpermissionsUp(user us){
+        us.setPermissions(0);
+        return true;
+    }
 
-        return false;
+    /**
+     * 更改用户权限up
+     */
+    public boolean changeUserpermissionsDown(user us){
+        us.setPermissions(-1);
+        return true;
     }
 }

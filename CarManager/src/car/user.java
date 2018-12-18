@@ -10,23 +10,21 @@ public class user implements Serializable {
     private String u_num;//联系电话
     private int permissions ;//权限
     private int state = 3;//状态
-    private Car [] uc={};//租用车辆
+    private Car  uc;//租用车辆
 
-    public Car[] getUc() {
+    public Car getUc() {
         return uc;
     }
 
-    public void setUc(Car[] uc) {
+    public void setUc(Car uc) {
         this.uc = uc;
     }
 
     @Override
     public String toString() {
-        return "user{" +
-                "u_ID='" + u_ID + '\'' +
-                ", u_name='" + u_name + '\'' +
-                ", u_num='" + u_num + '\'' +
-                '}';
+        return  "\t\t|\t\t" + u_ID +
+                "\t\t|\t\t" + u_name +
+                "\t\t|\t\t" + u_num +"\t\t|";
     }
 
     public static long getSerialVersionUID() {
@@ -81,7 +79,7 @@ public class user implements Serializable {
         this.state = state;
     }
 
-    public user() {
+    public user(String adv, String name, String string_u_pwd, String u_num, String int_permissions) {
     }
 
     public user(String u_ID, String u_name, String u_pwd, String u_num,int permissions) {
